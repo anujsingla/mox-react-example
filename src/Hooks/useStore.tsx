@@ -6,4 +6,5 @@ if (process.env.NODE_ENV === "development") {
   enableLogging();
 }
 
+// custom hook to acces store
 export const useStore = () => useContext(rootStoreContext);

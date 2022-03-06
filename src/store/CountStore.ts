@@ -20,6 +20,7 @@ export class CountStore {
   };
 
   decrement = () => {
+    console.log(this.rootStore.githubUserDetails);
     this.count--;
   };
 
